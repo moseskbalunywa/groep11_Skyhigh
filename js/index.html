@@ -16,7 +16,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
-
 </head>
   <body>
   <nav>
@@ -35,19 +34,27 @@
   </nav>
 <section>
   <div class="Center">
+    <div class="Inloggen_Text">Inloggen</div>
     <div class="Knoppen1">
-      <button class="ReserverenKnop">Sign in</button>
+      <button class="SigninKnop">Inloggen</button>
     </div>
-    <div class="Knoppen2">
-      <button class="InloggenKnop">Inloggen</button>
-      <button class="RegistrerenKnop">Registreren</button>
-    </div>
+
     <div class ="InputEmail">
-      <input type="Text" placeholder="inloggen" name="q">
+      <input type="Text" placeholder="Email of Gebruikersnaam" name="q" size="30px">
+      <div class="EmailInput_Stripe"></div>
+    </div>
+
+    <div class ="InputWachtwoord">
+      <input type="Text" placeholder="Wachtwoord" name="q" size="30px">
+      <div class="WachtwoordInput_Stripe"></div>
+    </div>
+
+
+    <div class="Registreren_Vakje"> Geen account?
+      <a class="Registreren_knop" href="https://www.google.com/">Registreren</a>
     </div>
   </div>
 
 </section>
-
 
   <script src="index.js"></script>

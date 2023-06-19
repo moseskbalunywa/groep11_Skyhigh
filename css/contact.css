@@ -1,0 +1,62 @@
+
+
+body {
+    background-image: url(plane2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #6D6A49;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+ margin: 1em;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+   width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+label {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.container {
+  margin: 5em auto;
+  width: 30%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+

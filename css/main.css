@@ -56,13 +56,13 @@ v ul li a{
 }
 
 a:hover{
-    background: #ffffff;
+    background: #87a2e7;
     transition: .5s;
 }
 
 .Center{
     background-color: #ffffff;
-    width: 25%;
+    width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -73,8 +73,9 @@ a:hover{
     border-color: #000000;
 }
 section{
-    background: url(/Afbeeldingen/segelflug-mauterndorf-lungau.jpg);
-   background-size: 100%;
+
+    background: url("/Afbeeldingen/segelflug-mauterndorf-lungau.jpg");
+    background-size: 100%;
     height: calc(100vh - 80px);
 }
 .Zoekbar{
@@ -89,30 +90,25 @@ section{
     size: 30px;
 
 }
+
+
 .search-bar{
     width: 100%;
     max-width: 100%;
 }
 
-
 .Knoppen1{
     text-align: center;
     position: relative;
-    left: 5%;
+    left: 15%;
     font-family: CodecPro;
     width: 50%;
     top: 375px;
 }
-.Knoppen2{
-    text-align: center;
-    position: relative;
-    left: 50%;
-    font-family: CodecPro;
-    width: 150px;
-    background-color: transparent;
-}
+
 .search-bar input{
     font-family: CodecPro;
+
 
     background: transparent;
     border-width: 1.5px;
@@ -120,43 +116,132 @@ section{
     font-size: 22px;
     border-radius: 5px;
     width: 160px;
+
 }
 
 .InputEmail{
     position: absolute;
-    bottom: 250px;
-    left: 100px;
-    height: 100px;
-}
-.ReserverenKnop{
+    bottom: 292px;
 
-    background-color: #ee3234;
+    left: 40px;
+
+}
+
+.InputEmail input{
+
+    height: 30px;
+    width: 320px;
+
+    background-color: rgb(241, 241, 241);
+    height: 50px;
+    border-width: 1.5px;
+    border-color: transparent;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 15px;
+    font-weight: lighter;
+
+    outline: none;
+
+}
+
+.EmailInput_Stripe{
+    background-color: #0d98e8;
+    width: 5px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    height: 100%;
+    left: -3px;
+
+}
+
+.InputWachtwoord{
+    position: absolute;
+    bottom: 223px;
+
+    left: 40px;
+
+}
+
+.InputWachtwoord input{
+
+    height: 30px;
+    width: 320px;
+
+    background-color: rgb(241, 241, 241);
+    height: 50px;
+    border-width: 1.5px;
+    border-color: transparent;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 15px;
+    font-weight: lighter;
+
+    outline: none;
+
+}
+
+.WachtwoordInput_Stripe{
+    background-color: #0d98e8;
+    width: 5px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    height: 100%;
+    left: -3px;
+
+}
+.Inloggen_Text{
+    color: rgb(21, 36, 69);
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 40px;
+    right: 30px;
+    border-color: #000000;
+
+}
+
+
+
+.SigninKnop{
+    position: relative;
+    background-color: #0ca4fc;
     border-radius: 27px;
     color: white;
+    font-weight: bold;
     font-family: CodecPro;
-    font-size: 30px;
-    border-color: #d54446;
-    height: 65px;
-    width: 300px;
+    font-size: 20px;
+    border-color: #20a5fd;
+    height: 50px;
+    width: 340px;
+    right: 30px;
 
 }
 
 Inlogvak{
     background-color: white;
 }
-.RegistrerenKnop{
-    position: absolute;
-    border-radius: 5px;
-    color: #ffffff;
-    font-family: CodecPro;
-    font-size: 22px;
-
-    border-color: rgba(58, 97, 176, 0.56);
-    background-color: rgba(46, 92, 180, 0.56);
-    right: 30px;
-}
 
 .InloggenKnop{
     position: absolute;
     left: 85%;
+}
+
+.Registreren_Vakje{
+    position: relative;
+    top: 400px;
+    left: 100px;
+    right: 50px;
+}
+
+.Registreren_knop{
+    position: relative;
+    background: transparent;
+    border: transparent;
+    left: 3px;
 }
