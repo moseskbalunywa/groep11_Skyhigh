@@ -60,24 +60,6 @@ a:hover{
     transition: .5s;
 }
 
-.Center{
-    background-color: #ffffff;
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-    height: 500px;
-    border-radius: 35px;
-    border-color: #000000;
-}
-section{
-
-    background: url("/Afbeeldingen/segelflug-mauterndorf-lungau.jpg");
-    background-size: 100%;
-    height: calc(100vh - 80px);
-}
 .Zoekbar{
 
     background: #e6f0f4;
@@ -97,15 +79,6 @@ section{
     max-width: 100%;
 }
 
-.Knoppen1{
-    text-align: center;
-    position: relative;
-    left: 15%;
-    font-family: CodecPro;
-    width: 50%;
-    top: 375px;
-}
-
 .search-bar input{
     font-family: CodecPro;
 
@@ -118,6 +91,36 @@ section{
     width: 160px;
 
 }
+
+.Center{
+    background-color: #ffffff;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    border-radius: 35px;
+    border-color: #000000;
+}
+section{
+
+    background: url("/Afbeeldingen/segelflug-mauterndorf-lungau.jpg");
+    background-size: 100%;
+    height: calc(100vh - 80px);
+}
+
+.Knoppen1{
+    text-align: center;
+    position: relative;
+    left: 15%;
+    font-family: CodecPro;
+    width: 50%;
+    top: 375px;
+}
+
+
 
 .InputEmail{
     position: absolute;

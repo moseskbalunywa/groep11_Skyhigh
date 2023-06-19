@@ -1,3 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: CodecPro;
+    src: url(/Fonts/CodecPro-Italic.ttf);
+}
+body{
+    font-family: CodecPro;
+
+}
+
+nav{
+    background: #e6f0f4;
+    height: 110px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 32%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 110px;
+    margin: 0 25px;
+
+}
+nav ul li a{
+    color: black;
+    font-weight: normal ;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+v ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+a:hover{
+    background: #87a2e7;
+    transition: .5s;
+}
+
+.Zoekbar{
+
+    background: #e6f0f4;
+    height: 0px;
+    align-items: center;
+    right: 10px;
+    position: absolute;
+    left: 85%;
+    top: 40px;
+    size: 30px;
+
+}
+
+
+.search-bar{
+    width: 100%;
+    max-width: 100%;
+}
+
+.search-bar input{
+    font-family: CodecPro;
+
+
+    background: transparent;
+    border-width: 1.5px;
+    flex: 1;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 160px;
+
+}
 
 
 body {
