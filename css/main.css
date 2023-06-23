@@ -93,10 +93,10 @@ a:hover{
 }
 
 .Center{
-    background-color: #ffffff;
+    background-color: #e6f0f4;
     width: 400px;
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
@@ -105,8 +105,7 @@ a:hover{
     border-color: #000000;
 }
 section{
-
-    background: url("/Afbeeldingen/segelflug-mauterndorf-lungau.jpg");
+    background: url("/Afbeeldingen/segelflug-mauterndorf-lungau.jpg") ;
     background-size: 100%;
     height: calc(100vh - 80px);
 }
@@ -226,8 +225,9 @@ section{
 
 }
 
-Inlogvak{
+.Inlogvak{
     background-color: white;
+    position: relative;
 }
 
 .InloggenKnop{

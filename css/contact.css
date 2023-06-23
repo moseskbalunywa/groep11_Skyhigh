@@ -11,7 +11,7 @@
     src: url(/Fonts/CodecPro-Italic.ttf);
 }
 body{
-    font-family: CodecPro;
+    font-family: CodecPro, sans-serif;
 
 }
 
@@ -97,7 +97,7 @@ body {
     background-image: url(plane2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #6D6A49;
+    background-color: #87a2e7;
     display: flex;
     flex-direction: column;
 }

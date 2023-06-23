@@ -92,62 +92,22 @@ a:hover{
 
 }
 
-body {
-    background-image: url![](../Afbeeldingen/thumbnail_plane.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #45545F;
-    display: flex;
-    flex-direction: column;
+.weer{
+    background-color: #e6f0f4;
+    width: 400px;
+    position: center ;
+    top: 65%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    border-radius: 35px;
+    border-color: #000000;
 }
 
-form {
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-}
-
-.loginContainer {
-    margin: 5em auto;
-    background-color: white;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5px;
-    width: 23em;
-}
-
-h2 {
-    margin: 1em;
-}
-
-input {
-    width: 100%;
-    height: 2em;
-    border-radius: 3px;
-    padding: 5px;
-    background-color: aliceblue;
-    border: 0;
-}
-label {
-    font-weight: 600;
-    font-size: 13px;
-}
-
-#submitButton {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: darkblue;
-    color: white;
-    cursor: pointer;
-}
-
-.linksLogin {
-    all: unset;
-    font-size: 15px;
-    margin: 5px;
-    font-weight: bolder
+div, IFRAME {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #777;
 }
