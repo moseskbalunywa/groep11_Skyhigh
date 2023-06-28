@@ -93,7 +93,7 @@ a:hover{
 }
 
 body {
-    background-image: url![](../Afbeeldingen/thumbnail_plane.jpg);
+    background-image: url("../Afbeeldingen/thumbnail_plane.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #45545F;
