@@ -8,6 +8,7 @@ if(isset($_POST['submit'])){
     $password = $_POST['wachtwoord'];
 
      global $conn;
+
      $sql = "select * from users where email = '$email' and password = '$password'";
      $result = mysqli_query($conn, $sql);
      $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
