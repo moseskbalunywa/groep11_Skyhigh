@@ -9,6 +9,8 @@ if(isset($_POST['submit'])){
 
      global $conn;
 
+    $password = stripcslashes($password);
+    $password = mysqli_real_escape_string($conn, $password);
      $sql = "select * from users where email = '$email' and password = '$password'";
      $result = mysqli_query($conn, $sql);
      $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
@@ -25,7 +27,6 @@ if(isset($_POST['submit'])){
          </script>';
      }
 }
-
 
 
 
