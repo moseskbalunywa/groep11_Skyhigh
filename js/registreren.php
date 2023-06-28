@@ -10,22 +10,15 @@ if(isset($_POST['registersubmit'])){
 
     $sql = "select * from users where email = '$email'";
     $result = mysqli_query($conn, $sql);
-    $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
     $count_email = mysqli_num_rows($result);
-
-
-
     if($count_email == 0 ){
         if($password == $cpassword){
-            $hash = password_hash($password, PASSWORD_DEFAULT);
-            $sql ="INSERT INTO users( email, password) VALUES ('$email', '$hash')";
+
+            $sql ="INSERT INTO users( email, password) VALUES ('$email', '$password')";
             $result = mysqli_query($conn, $sql);
             if($result){
                 header("Location: weer.html");
             }
-
-
-
         }
     }
     else{

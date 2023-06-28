@@ -34,11 +34,11 @@ include("connection.php");
              <br>
          <label class="wachtwoord">Vul een wachtwoord in</label>
              <br>
-         <input name="password" type="password" placeholder="* * * * * * * *" required minlength="8">
+         <input name="password" type="password" placeholder="* * * * * * * *" required minlength="3">
              <br>
                 <label>Herhaal wachtwoord</label>
              <br>
-         <input name="cpassword" type="password" placeholder="* * * * * * * *" required minlength="8">
+         <input name="cpassword" type="password" placeholder="* * * * * * * *" required minlength="3">
              <br>
              <button name="registersubmit" id="submitButton">Registreer</button>
          </form>

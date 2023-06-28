@@ -30,7 +30,7 @@ include("connection.php");
     <div class="Zoekbar"> <form action="" class="search-bar"><input type="text" placeholder="Zoeken" name="q"><button type="submit"></button> </form></div>
     <label class="logo"><img src="/Afbeeldingen/Sky%20high%20(Transparant).png" height="110"></label>
     <ul>
-        <li><a class ="active" href="index.html">Home</a></li>
+        <li><a class ="active" href="index.html.php">Home</a></li>
         <li><a href="#">Reserveren</a></li>
         <li><a href="Media.html">Media</a></li>
         <li><a href="weer.html">Weer</a></li>
@@ -51,12 +51,12 @@ include("connection.php");
 
 
         <div class ="InputEmail">
-            <input type="Text" placeholder="Email" name="emailadress" size="30px">
+            <input type="email" placeholder="Email" name="emailadress" size="30px">
             <div class="EmailInput_Stripe"></div>
         </div>
 
         <div class ="InputWachtwoord">
-            <input type="Text" placeholder="Wachtwoord" name="wachtwoord" size="30px">
+            <input type="password" placeholder="Wachtwoord" name="wachtwoord" size="30px">
             <div class="WachtwoordInput_Stripe"></div>
         </div>
         </form>
